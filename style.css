@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto" ,sans-serif;
+}
+header {
+    background: #000;
+    height: 70px;
+    padding: 15px;
+  }
+  nav ul {
+    display: none;
+  }
+  
+  .mobile-menu svg {
+    fill: #fff;
+  }
+  @media (min-width: 900px) {
+    header {
+      padding: 15px 0;
+    }
+    nav ul {
+      display: flex;
+      gap: 40px;
+    }
+  
+    nav a {
+      color: #fff;
+    }
+  
+    nav a:hover {
+      color: #ba08c3;
+    }
+    mobile-menu {
+      display: none;
+    }
+    .mobile-menu svg {
+      display: none;
+    }
+  }
+  .header-container {
+    max-width: 1000px;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner-container {
+    min-height: 800px;
+    background-color: #ba08c3;
+    padding: 50px 15px;
+  }
+  @media (min-width: 900px) {
+    article {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 50px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .banner-container {
+      padding: 0;
+    }
+  }
+  .banner-text{
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     color: white;
+     max-width: 544px;
+     min-height: 220px;
+     margin-bottom: 55px;
+   }
+   @media (min-width: 900px) {
+    .banner-text {
+      min-height: auto;
+      margin-bottom: 0;
+      align-items: baseline;
+    }
+  }
+  
+  .banner-text h4 {
+    font-size: 10px;
+    text-align: center;
+  }
+  @media (min-width: 900px) {
+    .banner-text h4 {
+      text-align: left;
+    }
+  }
+  
+  .banner-text h2 {
+    font-size: 35px;
+  }
+  .banner-text h6{
+    font-size: 15px;
+}
+  .banner-text button {
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    border: 0;
+    font-size: 10px;
+  }
+  .banner-text p {
+    font-size: 11px;
+  }
+  
+  .banner-img {
+    text-align: center;
+  }
+ 
